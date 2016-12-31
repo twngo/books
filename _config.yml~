@@ -1,0 +1,17 @@
+# Site settings
+title: TWNGO 線上電子書
+email: hello@twngo.xyz
+description: Slick Material Design theme for Jekyll powered by Material Design Lite.
+baseurl: "/books" # the subpath of your site, e.g. /blog/
+url: "http://twngo.xyz" # the base hostname & protocol for your site
+copyright: '&copy; 2015-2016 Smart Material Theme'
+
+# Build settings
+markdown: kramdown
+
+# Custom theme could be generated at: https://getmdl.io/customize/index.html
+material_theme: blue-deep_orange
+
+# Google Analytics account ID (UA-XXXXXXXX-X)
+
+google-analytics-ua: 
