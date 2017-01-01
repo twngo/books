@@ -1,26 +1,45 @@
  <!DOCTYPE html>
 <html lang="zh-hant">
 <head>
-    <meta charset="UTF-8">
-    <title>TWNGO.xyz - Ebook</title>
-
-    <link rel="stylesheet" href="css/min.css">
-     <link rel="stylesheet" href="css/bootstrap.min.css"> 
-   <!-- Optional theme -->
+   <meta charset="UTF-8">
+   <title>TWNGO.xyz - Ebook</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css"> 
    <link rel="stylesheet" href="css/bootstrap-theme.min.css"> 
-   <script src="/js/bootstrap.min.js"></script>
-   <script>
-    $(document).ready( function() {
-    $('[data-toggle="tooltip"]').tooltip();
+   <link rel="stylesheet" href="css/main.css">
+
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+  $(document).ready( function() {
+     $('[data-toggle="tooltip"]').tooltip();
    });
-   </script>
+  function openNav() {
+     document.getElementById("mySidenav").style.width = "250px";
+     document.getElementById("main").style.marginLeft = "250px";
+  }
+
+ function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+ </script>
 </head>
 
 <body>
 
+<span style="font-size:24px;cursor:pointer;padding-left:10px;color:#428bca" onclick="openNav()">&#9776; menu </span>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://twngo.xyz">回到首頁</a>
+  <a href="https://medium.twngo.xyz">最新消息</a>
+  <a href="https://github.com/twngo">其它專案</a>
+</div>
+
+
+<div id="main">
 <div class="container">
 	<div class="row">
-		<h2 class="text-center"><img src="images/twngo.ico">    線上電子書 </h2>
+		<h2 class="text-center"><img src="images/twngo.ico"> 線上電子書 </h2>
         <hr/>
 	</div>
     <div class="row">
@@ -38,11 +57,9 @@
         </div>
         
     
-        
-     
-       
-        </div>
     </div>
 </div>
+</div>
+
 </body>
 </html>
