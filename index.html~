@@ -39,7 +39,7 @@
 <div id="main">
 <div class="container">
 	<div class="row">
-		<h2 class="text-center"><img src="images/twngo.ico"> 線上電子書</h2>
+		<h2 class="text-center"><img src="images/twngo.ico"> 線上中文電子書</h2>
         <hr/>
 	</div>
     <div class="row">
@@ -64,12 +64,39 @@
                 </h4>
                  <span class="label label-info info">digital security</span>
                 <img src="http://www.remabledesigns.com/bootsnipp/img/201402031247.png" alt="...">
-                <a href="http://books.twngo.xyz/equalitylabs/" class="btn btn-primary col-xs-12" role="button">閱讀本書</a>
+                <a href="http://books.twngo.xyz/equalitylabs/android.html" class="btn btn-primary col-xs-12" role="button">閱讀本書</a>
                 <div class="clearfix"></div>
-            </div>
         </div>    
-    
     </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="images/tactics-for-HR.jpg" alt="..."> 
+                <h4>
+                    人權新戰術
+                </h4>
+                 <span class="label label-info info">tactics</span> <span class="label label-info info">advocacy</span>
+                <img src="http://www.remabledesigns.com/bootsnipp/img/201402031247.png" alt="...">
+                <a href="http://www.chinarightsia.org/?p=1810" class="btn btn-primary col-xs-12" role="button">閱讀本書</a>
+                <div class="clearfix"></div>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="images/billmoyer.jpg" alt="..."> 
+                <h4>
+                    社會運動的階段與角色
+                </h4>
+                 <span class="label label-info info">tactics</span> <span class="label label-info info">advocacy</span>
+                <img src="http://www.remabledesigns.com/bootsnipp/img/201402031247.png" alt="...">
+                <a href="http://www.chinarightsia.org/?p=1393" class="btn btn-primary col-xs-12" role="button">閱讀本書</a>
+                <div class="clearfix"></div>
+        </div>    
+    </div>
+
+
 </div>
 </div>
 
